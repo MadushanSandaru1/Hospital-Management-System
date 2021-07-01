@@ -1,0 +1,304 @@
+#logo {
+    width: 50px;
+}
+
+.navbar {
+    background: #0d1428;
+}
+
+.nav-item:hover {
+    background:  #a534fe;
+    border-radius: 5px;
+    color: white;
+    transition: all .3s;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(../img/carousel.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.top {
+    z-index: 2;
+    margin-top: -10%;
+    color: #fff;
+}
+
+.top .d1 {
+    width: 100%;
+    height: 300px;
+    background-color: #d973ed;
+    padding: 5%;
+}
+
+.top .d2 {
+    width: 100%;
+    height: 300px;
+    background-color: #d35cea;
+    padding: 5%;
+}
+
+.top .btn {
+    /*width: 100px;*/
+    height: 40px;
+    border-radius: 0;
+    background-color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    color: #be1cdd;
+}
+
+.top .btn:hover {
+    background-color: #be1cdd;
+    color: #fff;
+}
+
+.top .d3 {
+    width: 100%;
+    height: 300px;
+    background-color: #cd45e7;
+    padding: 5%;
+}
+
+.d3 img {
+    height: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.welcomeImg {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.welcomeImg img {
+    width: 95%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.welcomePara {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.welcomePara div {
+    position: absolute;
+    bottom: 0px;
+}
+
+.wordClassTopic {
+    background-color: #cd45e7;
+    
+}
+
+.wordClassTopic .topic {
+    color: #fff;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 30px solid #cd45e7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #0d1428;
+    color: #fff;
+}
+
+.footerLogo {
+    text-align: center;
+}
+
+.footerLogo img {
+    width: 60px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #cd45e7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footerBottom {
+    font-family: monospace;
+}
+
+.footerLink li {
+    list-style-type: square;
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:100%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+}
+
+.contactForm {
+    border: 1px solid #cd45e7;
+}
+
+.contactForm .btn:hover{
+    background-color: #fff;
+    color: #a534fe;
+}
+
+.contactDetails {
+    background-color: #cd45e7;
+    color: #fff;
+}
+
+.contactDetails pre{
+    color: #fff;
+    font-size: 17px;
+}
+
+.vision, .mission {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.vision hr, .mission hr {
+    border: none;
+    height: 2px;
+    background-color: #cd45e7;
+}
+
+.aboutImg {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(../img/about.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.awardTopic {
+    background-color: #cd45e7;
+}
+
+.awardTopic .topic {
+    color: #fff;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.awardLogo img {
+    width: 30%;
+}
+
+.doctorImg {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(../img/doctor.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.depList {
+    background-color: #cd45e7;
+    color: #fff;
+    max-height: 500px;
+    overflow: auto; 
+}
+
+.depList a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.depList a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.departmentImg {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(../img/department.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.story {
+    width: 100%;
+    position: relative;
+}
+
+.story hr {
+    border: none;
+    height: 2px;
+    background-color: #cd45e7;
+}
+
+.serviceImg {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(../img/service.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.saveBtn:hover{
+    color:  #A534FE;
+    background-color: white;
+    border: 1px solid  #A534FE;
+}
+
+.resetBtn:hover{
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+}
